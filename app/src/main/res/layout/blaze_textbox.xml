@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent" android:layout_height="70dp">
+
+    <!-- header -->
+    <TextView
+        android:id="@+id/blaze_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="header"
+        android:layout_marginLeft="20dp"
+        android:textSize="12sp"
+        android:textColor="@color/blue"
+        android:textCursorDrawable="@color/blue"/>
+
+    <!--input box -->
+    <EditText
+        android:id="@+id/blaze_input"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/blue"
+        android:hint="label"
+        android:textCursorDrawable="@color/blue"
+        android:textSize="15sp"
+        android:background="@drawable/blaze_blue"/>
+
+</RelativeLayout>
