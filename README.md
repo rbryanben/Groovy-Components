@@ -1,7 +1,7 @@
 # Groovy-Components
 Stylish Android UI Components
 
-
+<img src="https://user-images.githubusercontent.com/63599157/95677636-1265f000-0bc7-11eb-814b-ed73413642c3.gif" width=300 /> 
 
 # Installation
 In you project level build.gradle add
@@ -16,7 +16,7 @@ In you project level build.gradle add
 In your app level build.gradle
 
     dependencies {
-		implementation 'com.github.User:Repo:1.0'
+		implementation 'com.github.rbryanben:Groovy-Components:1.0'
 	}
   
 # Usage
@@ -28,3 +28,22 @@ In your app level build.gradle
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         app:label="username"/>
+	
+# XML Attributes
+
+    app:label="enter label here"
+    app:style="enter your style here" 
+	
+Styles include {blue , purple, red , green , blue, orange , yellow ,black , gray , pink } 
+ 	
+#  Attributes
+These Attributes are accessed programatically 
+    
+    setHeaderColor(int headerColor); 
+    showHeader_(boolean showHeader);
+    setTextSize(float textSize);
+    setHeight(int height);
+    setAnimate(Boolean animate);
+    setFocusable(Boolean focusable); //will set if the textbox should start focused
+    setStyle(String style);
+    setLabel(String label);
