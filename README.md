@@ -19,7 +19,7 @@ In your app level build.gradle
 		implementation 'com.github.rbryanben:Groovy-Components:1.0'
 	}
   
-# Usage
+# Blaze EditText usage
   
     <com.wapazock.groovycomponents.blaze_box.blazebox
         android:layout_width="match_parent"
@@ -29,14 +29,14 @@ In your app level build.gradle
         android:layout_marginRight="20dp"
         app:label="username"/>
 	
-# XML Attributes
+# Blaze XML Attributes
 
     app:label="enter label here"
     app:style="enter your style here" 
 	
 Styles include {blue , purple, red , green , blue, orange , yellow ,black , gray , pink } 
  	
-#  Attributes
+#  Blaze Attributes
 These Attributes are accessed programatically 
     
     setHeaderColor(int headerColor); 
