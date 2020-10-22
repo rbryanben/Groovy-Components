@@ -4,53 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/purple">
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-    <com.wapazock.groovycomponents.blaze_box.blazebox
-        android:id="@+id/username"
+    <com.wapazock.groovycomponents.twilight
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        app:label="username" />
-
-
-        <com.wapazock.groovycomponents.blaze_box.blazebox
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            app:style="pink"
-            app:label="email" />
-
-
-        <com.wapazock.groovycomponents.blaze_box.blazebox
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            app:label="city"
-            app:style="green"/>
-
-        <com.wapazock.groovycomponents.blaze_box.blazebox
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            app:label="street"
-            app:style="black"/>
-
-    </LinearLayout>
+        android:layout_marginLeft="20dp"/>
 
 
 </RelativeLayout>
