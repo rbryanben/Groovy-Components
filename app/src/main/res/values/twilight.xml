@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="twilight">
+        <attr name="label_" format="string" />
+        <attr name="style_" format="string" />
+        <attr name="icon_" format="reference" />
+        <attr name="text_color_" format="color" />
+        <attr name="header_color_" format="color" />
+        <attr name="hint_color_" format="color" />
+        <attr name="hint_text_" format="string" />
+        <attr name="marker_color" format="color" />
+    </declare-styleable>
+</resources>

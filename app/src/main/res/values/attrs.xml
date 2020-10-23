@@ -4,4 +4,5 @@
         <attr name="label" format="string" />
         <attr name="style" format="string"/>
     </declare-styleable>
+
 </resources>
