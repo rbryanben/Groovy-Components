@@ -233,6 +233,13 @@ public class twilight extends FrameLayout {
          return back.getSolidColor();
     }
 
+    /*
+       This function will get you the text
+     */
+    public String getText(){
+        return input.getText().toString();
+    }
+
 
     /*
       This function will get you the text color

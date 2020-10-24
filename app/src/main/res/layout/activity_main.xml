@@ -23,10 +23,12 @@
         app:label_="Address"
         app:hint_text_="1 Dur*****"
         app:style_="purple"
+        android:id="@+id/address"
         app:icon_="@drawable/ic_location"/>
 
 
         <com.wapazock.groovycomponents.twilight.twilight
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_marginTop="20dp"
@@ -35,6 +37,15 @@
             app:label_="Email"
             app:hint_text_="hello@am***"
             app:icon_="@drawable/ic_email" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="LOGIN"/>
 
     </LinearLayout>
 
