@@ -16,7 +16,7 @@ In you project level build.gradle add
 In your app level build.gradle
 
     dependencies {
-		implementation 'com.github.rbryanben:Groovy-Components:1.0'
+		implementation 'com.github.rbryanben:Groovy-Components:1.0.1'
 	}
   
 # Blaze EditText usage
